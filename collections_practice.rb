@@ -5,9 +5,11 @@ end
 
 def sort_array_desc(array)
   
+  new_array = []
 
 array.sort do |a, b|
   a <=> b
+  new_array << array
 end
-array
+new_array
 end
