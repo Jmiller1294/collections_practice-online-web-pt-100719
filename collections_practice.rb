@@ -56,7 +56,6 @@ def add_s(array)
     if word != "feet"
     word = "#{word}s"
    end
-    new_array << word
 end
 new_array
 end
