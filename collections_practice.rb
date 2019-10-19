@@ -37,7 +37,7 @@ end
 
 def find_a(array)
   array.select do |letter|
-  if letter[0] = "a"
+  if letter[0] =="a"
 end
 end
 array
