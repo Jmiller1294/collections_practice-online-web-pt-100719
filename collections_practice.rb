@@ -32,7 +32,7 @@ new_array = []
 
 array.each do |word|
   word[2] = "$"
-  puts word
+  
   new_array << word
 end
 new_array
