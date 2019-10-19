@@ -44,7 +44,9 @@ end
 end
 
 def sum_array(array)
-  new_array = array.inject
+  
+  array.inject do |num|
+  
   new_array
 end
 
