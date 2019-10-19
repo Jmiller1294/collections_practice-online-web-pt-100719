@@ -53,9 +53,10 @@ end
 def add_s(array)
   new_array = []
   array.each do |word|
-  word.join() + "s"
+  puts word + "s"
+  new_array << word
   
-  new_array << word.split()
+
 end
 new_array
 end
