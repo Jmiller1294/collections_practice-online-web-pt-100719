@@ -35,8 +35,8 @@ end
  new_array
 end
 
-def find_a
-  
+def find_a(array)
+  array.select("a")
 
 end
 
