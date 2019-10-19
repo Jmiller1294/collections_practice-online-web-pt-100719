@@ -57,5 +57,6 @@ def add_s(array)
   
   new_array << word.split
 end
+new_array
 end
 
