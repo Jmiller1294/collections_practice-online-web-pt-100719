@@ -25,3 +25,20 @@ def reverse_array(array)
   new_array = array.reverse
   new_array
 end
+
+def kesha_maker(array)
+new_array = []
+
+
+array.each do |word|
+  if word.index[2]
+    word.index[2] = "$"
+  new_array << word
+  end
+new_array
+
+end
+
+
+
+
