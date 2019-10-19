@@ -31,9 +31,7 @@ new_array = []
 
 
 array.each do |word|
-  if word.index[2]
     word.index[2] = "$"
-  end
   new_array << word
 end
 new_array
