@@ -31,7 +31,7 @@ new_array = []
 
 
 array.each do |word|
-  word.sub(index[2],"$")
+  word.sub(word.index[2],"$")
   new_array << word
 end
 new_array
