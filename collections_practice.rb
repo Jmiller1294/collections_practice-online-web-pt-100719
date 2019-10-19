@@ -43,5 +43,7 @@ end
 end
 end
 
-def sum_array()
+def sum_array(array)
+  new_array = array.inject
+  new_array
 
